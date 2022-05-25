@@ -109,6 +109,11 @@
             "description": "fill with the mongodb url get from mongodb.cloud.com (don't use mine below !!)",
             "required": true,
             "value": ""
+        },
+        "UPSTREAM_REPO": {
+            "description": "Don't change this !!",
+            "required": true,
+            "value": "https://github.com/UnknownMortal/M8N-Music-Bot"
         }
     },
     "buildpacks": [
