@@ -4,12 +4,12 @@ import asyncio
 import requests
 from pyrogram import Client
 from pytgcalls import idle
-from Codexun import app
-from Codexun import client
-from Codexun.database.functions import clean_restart_stage
-from Codexun.database.queue import get_active_chats, remove_active_chat
-from Codexun.tgcalls.calls import run
-from Codexun.config import API_ID, API_HASH, BOT_TOKEN, BG_IMG, OWNER_ID, BOT_NAME
+from m8n import app
+from m8n import client
+from m8n.database.functions import clean_restart_stage
+from m8n.database.queue import get_active_chats, remove_active_chat
+from m8n.tgcalls.calls import run
+from m8n.config import API_ID, API_HASH, BOT_TOKEN, BG_IMG, OWNER_ID, BOT_NAME
 
 
 response = requests.get(BG_IMG)
